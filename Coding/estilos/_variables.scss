@@ -1,0 +1,17 @@
+$texto: 'Poppins', sans-serif;
+$titulos: 'Yeseva One';
+$azul: #012E46;
+$blanco: #FAFAD2;
+$negro: #272716;
+$bordo: #9D2F2F;
+
+@mixin botonMobile {
+    width: 176px;
+    height: 48px;
+    left: 114px;
+    top: 908px;
+
+    background: #9D2F2F;
+    border-radius: 15px;
+    border: none;
+}
