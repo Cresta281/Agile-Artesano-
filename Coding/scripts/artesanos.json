@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "img":"",
+        "nombre": "Veronica Moncayo",
+        "taller": "Blume diseño",
+        "red": "https://www.instagram.com/blumejoyeria/",
+        "whatsapp": "57 3006535061",
+        "email": "blumeoroplata@gmail.com",
+        "elemento": "Tierra",
+        "pais": "Colombia",
+        "Observaciones": "26 años trabajando en diseño y fabricación de joyas de autor, técnicas varias: modelado en cera; armado; engaste de piedras, certificación de piedras naturales; granometría."
+    },
+    {
+        "id": 2,
+        "img":"",
+        "nombre": "Juan Carlos Vallejo",
+        "taller": "De fique",
+        "red": "https://www.instagram.com/defiqueartesano/",
+        "whatsapp": "573114723965",
+        "email": "jucavaor@gmail.com",
+        "elemento": "Tierra",
+        "pais": "Colombia",
+        "Observaciones": "Desde niño he tenido cercanía con la artesanía, llevo 6 años tejiendo y 3 años como artesano comercializando lo que hago. Experimento con el fique tejiendo mochilas, cestería, tapetes, hamacas y sobre estás técnicas innovando productos."
+    },
+    {
+        "id": 3,
+        "img":"",
+        "nombre": "Amparo Navarro Longo",
+        "taller": "Coltesedas",
+        "red": "https://www.instagram.com/colteseda/",
+        "whatsapp": "57313 6804803",
+        "email": "colteseda@hotmail.com",
+        "elemento": "Agua",
+        "pais": "Colombia",
+        "Observaciones": "24 años de asistir como expositoras en Expoartesanías. Trabajo en innovación sector turismo y biomedica mediante el trabajo y experimentación con diversas entidades."
+    },
+    {
+        "id": 4,
+        "img":"",
+        "nombre": "Manuel Pertuz Mendoza",
+        "taller": "Artesanias Toro Miura",
+        "red": "https://instagram.com/toromiurartesanias?utm_medium=copy_link",
+        "whatsapp": "573024286062",
+        "email": "miurarte@hotmail.com",
+        "elemento": "Fuego",
+        "pais": "Colombia",
+        "Observaciones": "36 años de experiencia; 31 años de asistir como expositor en Expoartesanías. Técnica talla en madera. Trabajamos en el taller de forma directa con 15 personas, Docente de Educación Artística grados 10 y 11."
+    },
+    {
+        "id": 5,
+        "img":"",
+        "nombre": "Nora Andrea Ortiz Lopez",
+        "taller": "Naol by Nora Ortiz",
+        "red": "https://www.instagram.com/tallernaol.by.noraortiz/",
+        "whatsapp": "573132258103",
+        "email": "naol.di.joyeria@gmail.com",
+        "elemento": "Fuego",
+        "pais": "Colombia",
+        "Observaciones": "23 años experiencia en diseño y desarrollo de producto de joyería, bisutería y trabajo con los metales. En técnicas de armado de joyas en metales preciosos (plata, oro, paladio) y no preciosos (cobre, latón, aceros inox) tecnicas, calado, aleación, procesos de soldadura; microfundición o fundición a la cera perdida; engaste; acabados especiales como reticulados, esmaltados, mokume ganne, resinas, combinación con otros materiales como madera, acrilicos (sobrantes de industrias de diseño de otro tipo de objetos de mayor formato). Desarrollo de productos para comunidades de joyeros de Colombia. Participacion en ferias como Expoartesanias 2002, 2004, 2007, 2009, 2010. Semana de la moda de Bogotá 2010 y desfile de pasarela de joyería. Manofacto2006. Hotel Almirante de Cartagena."
+    },
+    {
+        "id": 6,
+        "img":"",
+        "nombre": "Oscar Giovanni Ortiz Gómez",
+        "taller": "Artetamo",
+        "red": "https://www.instagram.com/artetamo7/",
+        "whatsapp": "573122297192",
+        "email": "artetamo7@gmail.com",
+        "elemento": "Tierra",
+        "pais": "Colombia",
+        "Observaciones": "21 años dedicado a la técnica del enchapado en tamo (tallo del trigo y otros elementos vegetales)Participacion en Salon BAT 2007/2010 y 2022. Participación Feria Artesanal Carnaval artesano (Artesanias de Colombia - Acopi seccional Nariño) 2019 - 2020- 2021- 2022. Feria del café (Gobernación de Nariño y Artesanías de Colombia) 2021."
+    }
+
+]

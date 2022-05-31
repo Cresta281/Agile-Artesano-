@@ -51,6 +51,24 @@
             width: 70%;
         }
     }
+    .contacto_container {
+        display: flex;
+        width: 70%;
+       .svgs_container {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-evenly;
+        }
+        .text_container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                font-family: $titulos;
+                font-size: 18px;
+            }
+        }
+    }
 }
 .estilos {
     background: $azul;
@@ -65,6 +83,51 @@
             color: $blanco;
             font-size: 25px;
             text-align: center;
+        }
+        .cards_container {
+            display: flex;
+            flex-direction: column;
+            .card {
+                width: 289.33px;
+                height: 149.38px;
+                background: $bordo;
+                margin: 1.5rem;
+                display: flex;
+                flex-direction: row;
+                align-items: stretch;
+                .card_body {
+                    padding: 0.3rem;
+                    h5 {
+                        font-family: $titulos;
+                        font-size: 14px;
+                        color: $blanco;
+                    }
+                    p {
+                        color: $blanco;
+                        font-family: $blanco;
+                        font-size: 12px;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-family: $texto;
+                        padding: 0.2rem;
+                        color: $azul;
+                        font-size: 12px;
+                        background: $blanco;
+                        border-radius: 15%;
+                    }
+                }
+            }
+        }
+        button {
+            background: $bordo;
+            border-radius: 10%;
+            color: $blanco;
+            width: 164px;
+            height: 31.63px;
+            border: none;
+            font-size: 18px;
+            margin-bottom: 2rem;
         }
         .elementos_container {
             padding-top: 2rem;
@@ -86,9 +149,33 @@
                 margin-top: 1rem;
                 font-family: $titulos;
                 transition: all 0.5s ease;
+                margin-bottom: 1rem;
                 &:hover {
                    transform: scale(1.2);
                 }
+            }
+        }
+    }
+}
+footer {
+    background: $bordo;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    h1 {
+        font-size: 18px;
+        font-family: $titulos;
+        color: $blanco;
+        span {
+            cursor: pointer;
+            &:hover {
+                background: $blanco;
+                color: $azul;
+            }
+            a {
+                text-decoration: none;
+                color: $blanco;
+                font-family: $titulos;
             }
         }
     }

@@ -78,6 +78,44 @@
   width: 70%;
 }
 
+.quienes_somos .contacto_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+}
+
+.quienes_somos .contacto_container .svgs_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.quienes_somos .contacto_container .text_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quienes_somos .contacto_container .text_container p {
+  font-family: "Yeseva One";
+  font-size: 18px;
+}
+
 .estilos {
   background: #012E46;
 }
@@ -104,6 +142,70 @@
   color: #FAFAD2;
   font-size: 25px;
   text-align: center;
+}
+
+.estilos .estilos_container .cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.estilos .estilos_container .cards_container .card {
+  width: 289.33px;
+  height: 149.38px;
+  background: #9D2F2F;
+  margin: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.estilos .estilos_container .cards_container .card .card_body {
+  padding: 0.3rem;
+}
+
+.estilos .estilos_container .cards_container .card .card_body h5 {
+  font-family: "Yeseva One";
+  font-size: 14px;
+  color: #FAFAD2;
+}
+
+.estilos .estilos_container .cards_container .card .card_body p {
+  color: #FAFAD2;
+  font-family: #FAFAD2;
+  font-size: 12px;
+}
+
+.estilos .estilos_container .cards_container .card .card_body a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.2rem;
+  color: #012E46;
+  font-size: 12px;
+  background: #FAFAD2;
+  border-radius: 15%;
+}
+
+.estilos .estilos_container button {
+  background: #9D2F2F;
+  border-radius: 10%;
+  color: #FAFAD2;
+  width: 164px;
+  height: 31.63px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 2rem;
 }
 
 .estilos .estilos_container .elementos_container {
@@ -146,10 +248,43 @@
   font-family: "Yeseva One";
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  margin-bottom: 1rem;
 }
 
 .estilos .estilos_container .elementos_container button:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+footer {
+  background: #9D2F2F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+footer h1 {
+  font-size: 18px;
+  font-family: "Yeseva One";
+  color: #FAFAD2;
+}
+
+footer h1 span {
+  cursor: pointer;
+}
+
+footer h1 span:hover {
+  background: #FAFAD2;
+  color: #012E46;
+}
+
+footer h1 span a {
+  text-decoration: none;
+  color: #FAFAD2;
+  font-family: "Yeseva One";
 }
 /*# sourceMappingURL=estilos.css.map */
