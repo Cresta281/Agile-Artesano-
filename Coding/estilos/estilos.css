@@ -287,4 +287,373 @@ footer h1 span a {
   color: #FAFAD2;
   font-family: "Yeseva One";
 }
+
+.elemento {
+  background: #FAFAD2;
+}
+
+.elemento .el_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.elemento .el_container h1 {
+  font-family: "Yeseva One";
+  color: #272716;
+  font-size: 25px;
+  text-align: center;
+}
+
+.elemento .el_container h2 {
+  font-family: "Poppins", sans-serif;
+  color: #272716;
+  font-size: 18px;
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+}
+
+.elemento .el_container .elemento_linea {
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  left: 26%;
+  top: 12%;
+  border: 1px solid #272716;
+}
+
+.elemento .el_container p {
+  font-family: "Poppins", sans-serif;
+  color: #272716;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1rem;
+  width: 70%;
+}
+
+.elemento_azul {
+  background: #012E46;
+  padding-bottom: 5rem;
+}
+
+.elemento_azul .fuego_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.elemento_azul .fuego_container img {
+  width: 18%;
+  height: 18%;
+}
+
+.elemento_azul .fuego_container h1 {
+  font-family: "Yeseva One";
+  font-size: 25px;
+  color: #FAFAD2;
+  padding-top: 1.5rem;
+}
+
+.elemento_azul .fuego_container .linea_blanca {
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  left: 26%;
+  top: 52%;
+  border: 1px solid #FAFAD2;
+}
+
+.elemento_azul .fuego_container p {
+  font-family: "Poppins", sans-serif;
+  color: #FAFAD2;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1rem;
+  width: 70%;
+}
+
+.elemento_azul .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  padding-left: 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.elemento_azul .carousel-inner h1 {
+  color: #FAFAD2;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  text-align: center;
+}
+
+.elemento_azul .carousel-inner .card2 {
+  width: 289.33px;
+  height: 149.38px;
+  background: #012E46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.elemento_azul .carousel-inner .card2 h3 {
+  font-family: "Poppins", sans-serif;
+  color: #FAFAD2;
+  padding-top: 3rem;
+  font-size: 18px;
+  padding-left: 2.6rem;
+}
+
+.elemento_azul .carousel-inner .card2 .linea_artesanos {
+  position: absolute;
+  width: 160px;
+  height: 0px;
+  left: 22%;
+  top: 60%;
+  border: 1px solid #FAFAD2;
+}
+
+.elemento_azul .carousel-inner .card {
+  width: 289.33px;
+  height: 149.38px;
+  background: #9D2F2F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.elemento_azul .carousel-inner .card .card_body {
+  padding: 0.3rem;
+}
+
+.elemento_azul .carousel-inner .card .card_body h5 {
+  font-family: "Yeseva One";
+  font-size: 14px;
+  color: #FAFAD2;
+}
+
+.elemento_azul .carousel-inner .card .card_body p {
+  color: #FAFAD2;
+  font-family: #FAFAD2;
+  font-size: 12px;
+}
+
+.elemento_azul .carousel-inner .card .card_body a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.2rem;
+  color: #012E46;
+  font-size: 12px;
+  background: #FAFAD2;
+  border-radius: 15%;
+}
+
+.elemento_blanco {
+  background: #FAFAD2;
+  padding-bottom: 5rem;
+}
+
+.elemento_blanco .agua_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.elemento_blanco .agua_container img {
+  width: 14%;
+  height: 14%;
+}
+
+.elemento_blanco .agua_container h1 {
+  font-family: "Yeseva One";
+  font-size: 25px;
+  color: #272716;
+  padding-top: 1.5rem;
+}
+
+.elemento_blanco .agua_container .linea_blanca {
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  left: 26%;
+  top: 52%;
+  border: 1px solid #272716;
+}
+
+.elemento_blanco .agua_container .linea_blanca_aire {
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  left: 26%;
+  top: 47%;
+  border: 1px solid #272716;
+}
+
+.elemento_blanco .agua_container p {
+  font-family: "Poppins", sans-serif;
+  color: #272716;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 1rem;
+  width: 70%;
+}
+
+.elemento_blanco .carousel-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  padding-left: 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.elemento_blanco .carousel-inner h1 {
+  color: #FAFAD2;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  text-align: center;
+}
+
+.elemento_blanco .carousel-inner .card2 {
+  width: 289.33px;
+  height: 149.38px;
+  background: #FAFAD2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.elemento_blanco .carousel-inner .card2 h3 {
+  font-family: "Poppins", sans-serif;
+  color: #272716;
+  padding-top: 3rem;
+  font-size: 18px;
+  padding-left: 2.6rem;
+}
+
+.elemento_blanco .carousel-inner .card2 .linea_artesanos {
+  position: absolute;
+  width: 160px;
+  height: 0px;
+  left: 22%;
+  top: 60%;
+  border: 1px solid #272716;
+}
+
+.elemento_blanco .carousel-inner .card {
+  width: 289.33px;
+  height: 149.38px;
+  background: #012E46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.elemento_blanco .carousel-inner .card .card_body {
+  padding: 0.3rem;
+}
+
+.elemento_blanco .carousel-inner .card .card_body h5 {
+  font-family: "Yeseva One";
+  font-size: 14px;
+  color: #FAFAD2;
+}
+
+.elemento_blanco .carousel-inner .card .card_body p {
+  color: #FAFAD2;
+  font-family: #FAFAD2;
+  font-size: 12px;
+}
+
+.elemento_blanco .carousel-inner .card .card_body a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.2rem;
+  color: #012E46;
+  font-size: 12px;
+  background: #FAFAD2;
+  border-radius: 15%;
+}
 /*# sourceMappingURL=estilos.css.map */
