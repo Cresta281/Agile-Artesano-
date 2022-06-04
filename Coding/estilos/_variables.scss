@@ -15,3 +15,9 @@ $bordo: #9D2F2F;
     border-radius: 15px;
     border: none;
 }
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}

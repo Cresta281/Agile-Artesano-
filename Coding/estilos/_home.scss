@@ -74,7 +74,7 @@
     background: $azul;
     .estilos_container {
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
         justify-content: center;
         padding-top: 1.5rem;
         align-items: center;
@@ -161,6 +161,8 @@ footer {
     background: $bordo;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 2rem;
     h1 {
         font-size: 18px;

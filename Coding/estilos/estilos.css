@@ -264,6 +264,10 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
   padding: 2rem;
 }
 
@@ -286,5 +290,301 @@ footer h1 span a {
   text-decoration: none;
   color: #FAFAD2;
   font-family: "Yeseva One";
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+/*Propiedades nuevo slide*/
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  background: #9D2F2F;
+  -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+          box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  margin: auto auto auto auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider::before, .slider::after {
+  content: "";
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slider div.slide {
+  height: 200px;
+  width: 200px;
+}
+
+section.slider img.artesano {
+  background-color: #9D2F2F;
+  margin-left: 46%;
+}
+
+/*Vistas personalizadas*/
+@media screen and (min-width: 360px) {
+  .slider {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slider {
+    display: block;
+  }
+  .quienes_somos {
+    background: #FAFAD2;
+  }
+  .quienes_somos .qs_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .quienes_somos .qs_container h1 {
+    font-family: "Yeseva One";
+    color: #272716;
+    font-size: 25px;
+    text-align: center;
+  }
+  .quienes_somos .qs_container p {
+    font-family: "Poppins", sans-serif;
+    color: #272716;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 1rem;
+    width: 70%;
+  }
+  .quienes_somos .contacto_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+  }
+  .quienes_somos .contacto_container .svgs_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .quienes_somos .contacto_container .text_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .quienes_somos .contacto_container .text_container p {
+    font-family: "Yeseva One";
+    font-size: 18px;
+  }
+  .estilos {
+    background: #012E46;
+  }
+  .estilos .estilos_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding-top: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .estilos .estilos_container h1 {
+    font-family: "Yeseva One";
+    color: #FAFAD2;
+    font-size: 25px;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .estilos .estilos_container .cards_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .estilos .estilos_container .cards_container .card {
+    width: 289.33px;
+    height: 149.38px;
+    background: #9D2F2F;
+    margin: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .estilos .estilos_container .cards_container .card .card_body {
+    padding: 0.3rem;
+  }
+  .estilos .estilos_container .cards_container .card .card_body h5 {
+    font-family: "Yeseva One";
+    font-size: 14px;
+    color: #FAFAD2;
+  }
+  .estilos .estilos_container .cards_container .card .card_body p {
+    color: #FAFAD2;
+    font-family: #FAFAD2;
+    font-size: 12px;
+  }
+  .estilos .estilos_container .cards_container .card .card_body a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 0.2rem;
+    color: #012E46;
+    font-size: 12px;
+    background: #FAFAD2;
+    border-radius: 15%;
+  }
+  .estilos .estilos_container button {
+    background: #9D2F2F;
+    border-radius: 10%;
+    color: #FAFAD2;
+    width: 164px;
+    height: 31.63px;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+  .estilos .estilos_container .elementos_container {
+    padding-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .estilos .estilos_container .elementos_container img {
+    width: 38%;
+    height: 38%;
+  }
+  .estilos .estilos_container .elementos_container .elementos_svg {
+    width: 25%;
+    height: 25%;
+  }
+  .estilos .estilos_container .elementos_container button {
+    width: 176px;
+    height: 48px;
+    left: 114px;
+    top: 908px;
+    background: #9D2F2F;
+    border-radius: 15px;
+    border: none;
+    color: #FAFAD2;
+    margin-top: 1rem;
+    font-family: "Yeseva One";
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-bottom: 1rem;
+  }
+  .estilos .estilos_container .elementos_container button:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
 }
 /*# sourceMappingURL=estilos.css.map */

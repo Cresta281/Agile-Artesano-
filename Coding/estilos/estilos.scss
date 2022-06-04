@@ -1,8 +1,170 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 @import "variables";
 @import "home";
+
+@mixin white-gradient {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
+  $animationSpeed: 40s;
+  
+  // Animación
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+
+/*Propiedades nuevo slide*/
+
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+$animationSpeed: 40s;
+
+// Animación
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+// Estilo
+.slider {
+  background: $bordo;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  margin: auto auto auto auto;
+  overflow: hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    height: 200px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+
+  div.slide {
+   height: 200px;
+   width: 200px;
+  }
+}
+
+section.slider {
+  img.artesano {
+    background-color: $bordo;
+    margin-left: 46%;
+  }
+}
+
+/*Vistas personalizadas*/
+
+//celular
+@media screen and (min-width: 360px) {
+  .slider {
+    display: none;
+  }
+}
+
+//tablet
+@media screen and (min-width: 600px) {
+  .slider {
+    display: none;
+  }
+}
+
+//monitor
+@media screen and (min-width: 1200px) {
+  .slider {
+    display:block;
+  }
+
+  .estilos {
+    .estilos_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-around;
+        align-content: center;
+        padding-top: 1.5rem;
+        align-items: center;
+        h1 {
+          
+            font-family: $titulos;
+            color: $blanco;
+            font-size: 25px;
+            text-align: center;
+            align-content: center;
+        }
+  
+        .elementos_container {
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 38%;
+                height: 38%;
+            }
+            .elementos_svg {
+                width: 25%;
+                height: 25%;
+            }
+            button {
+                @include botonMobile;
+                color: $blanco;
+                margin-top: 1rem;
+                font-family: $titulos;
+                transition: all 0.5s ease;
+                margin-bottom: 1rem;
+                &:hover {
+                   transform: scale(1.2);
+                }
+            }
+        }
+    }
+  }
+}
