@@ -6,6 +6,7 @@
 }
 @import "variables";
 @import "home";
+<<<<<<< HEAD
 
 @mixin white-gradient {
     background: linear-gradient(
@@ -168,3 +169,6 @@ section.slider {
     }
   }
 }
+=======
+@import "elementos";
+>>>>>>> 9617eee14f411086182adf78bef91466c6e626ad
