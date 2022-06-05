@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -154,6 +154,10 @@
           flex-direction: column;
 }
 
+.estilos .estilos_container .cards_container .negrada {
+  display: none;
+}
+
 .estilos .estilos_container .cards_container .card {
   width: 289.33px;
   height: 149.38px;
@@ -225,6 +229,10 @@
           align-items: center;
 }
 
+.estilos .estilos_container .elementos_container p {
+  display: none;
+}
+
 .estilos .estilos_container .elementos_container img {
   width: 38%;
   height: 38%;
@@ -292,7 +300,6 @@ footer h1 span a {
   font-family: "Yeseva One";
 }
 
-<<<<<<< HEAD
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -392,84 +399,17 @@ section.slider img.artesano {
   .slider {
     display: block;
   }
-  .quienes_somos {
-    background: #FAFAD2;
-  }
-  .quienes_somos .qs_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 1.5rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .quienes_somos .qs_container h1 {
-    font-family: "Yeseva One";
-    color: #272716;
-    font-size: 25px;
-    text-align: center;
-  }
-  .quienes_somos .qs_container p {
-    font-family: "Poppins", sans-serif;
-    color: #272716;
-    font-size: 18px;
-    text-align: center;
-    padding-top: 1rem;
-    width: 70%;
-  }
-  .quienes_somos .contacto_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 70%;
-  }
-  .quienes_somos .contacto_container .svgs_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .quienes_somos .contacto_container .text_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .quienes_somos .contacto_container .text_container p {
-    font-family: "Yeseva One";
-    font-size: 18px;
-  }
-  .estilos {
-    background: #012E46;
-  }
   .estilos .estilos_container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -ms-flex-line-pack: center;
@@ -486,63 +426,15 @@ section.slider img.artesano {
     text-align: center;
     -ms-flex-line-pack: center;
         align-content: center;
+    width: 100%;
   }
   .estilos .estilos_container .cards_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .estilos .estilos_container .cards_container .card {
-    width: 289.33px;
-    height: 149.38px;
-    background: #9D2F2F;
-    margin: 1.5rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-  }
-  .estilos .estilos_container .cards_container .card .card_body {
-    padding: 0.3rem;
-  }
-  .estilos .estilos_container .cards_container .card .card_body h5 {
-    font-family: "Yeseva One";
-    font-size: 14px;
-    color: #FAFAD2;
-  }
-  .estilos .estilos_container .cards_container .card .card_body p {
-    color: #FAFAD2;
-    font-family: #FAFAD2;
-    font-size: 12px;
-  }
-  .estilos .estilos_container .cards_container .card .card_body a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    padding: 0.2rem;
-    color: #012E46;
-    font-size: 12px;
-    background: #FAFAD2;
-    border-radius: 15%;
-  }
-  .estilos .estilos_container button {
-    background: #9D2F2F;
-    border-radius: 10%;
-    color: #FAFAD2;
-    width: 164px;
-    height: 31.63px;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 2rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .estilos .estilos_container .elementos_container {
     padding-top: 2rem;
@@ -553,6 +445,7 @@ section.slider img.artesano {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 50%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -561,12 +454,20 @@ section.slider img.artesano {
             align-items: center;
   }
   .estilos .estilos_container .elementos_container img {
-    width: 38%;
-    height: 38%;
+    width: 18%;
+    height: 18%;
+  }
+  .estilos .estilos_container .elementos_container p {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    width: 40%;
+    color: #FAFAD2;
+    padding-top: 1rem;
   }
   .estilos .estilos_container .elementos_container .elementos_svg {
-    width: 25%;
-    height: 25%;
+    width: 10%;
+    height: 10%;
   }
   .estilos .estilos_container .elementos_container button {
     width: 176px;
@@ -587,7 +488,8 @@ section.slider img.artesano {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
-=======
+}
+
 .elemento {
   background: #FAFAD2;
 }
@@ -955,6 +857,5 @@ section.slider img.artesano {
   font-size: 12px;
   background: #FAFAD2;
   border-radius: 15%;
->>>>>>> 9617eee14f411086182adf78bef91466c6e626ad
 }
 /*# sourceMappingURL=estilos.css.map */
