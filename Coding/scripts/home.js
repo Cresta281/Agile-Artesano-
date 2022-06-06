@@ -28,7 +28,7 @@ function mostrarArtesanos(artesanos){
             `
             <div class="col-sm-3">
             <div class="card">
-                <img src='' class="card-img-top" alt="...">
+                <img src=${artesano.img} class="card-img-top" alt="...">
                 <div class="card_body">
                     <h5 class="card_title">${artesano.nombre}</h5>
                     <p class="card_text">${artesano.taller}</p>

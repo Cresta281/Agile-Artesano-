@@ -50,6 +50,9 @@
             padding-top: 1rem;
             width: 70%;
         }
+        .desktop_text {
+            display: none;
+        }
     }
     .contacto_container {
         display: flex;
@@ -95,6 +98,9 @@
                 display: flex;
                 flex-direction: row;
                 align-items: stretch;
+                img {
+                    max-width: 50%;
+                }
                 .card_body {
                     padding: 0.3rem;
                     h5 {

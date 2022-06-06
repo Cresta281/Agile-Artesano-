@@ -78,6 +78,10 @@
   width: 70%;
 }
 
+.quienes_somos .qs_container .desktop_text {
+  display: none;
+}
+
 .quienes_somos .contacto_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,10 +158,6 @@
           flex-direction: column;
 }
 
-.estilos .estilos_container .cards_container .negrada {
-  display: none;
-}
-
 .estilos .estilos_container .cards_container .card {
   width: 289.33px;
   height: 149.38px;
@@ -173,6 +173,10 @@
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+}
+
+.estilos .estilos_container .cards_container .card img {
+  max-width: 50%;
 }
 
 .estilos .estilos_container .cards_container .card .card_body {
@@ -609,7 +613,7 @@ section.slider img.artesano {
       -ms-flex-direction: row;
           flex-direction: row;
   overflow: hidden;
-  padding-left: 2.5rem;
+  padding-left: 2rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -670,6 +674,11 @@ section.slider img.artesano {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  border: none;
+}
+
+.elemento_azul .carousel-inner .card img {
+  max-width: 50%;
 }
 
 .elemento_azul .carousel-inner .card .card_body {
@@ -770,7 +779,7 @@ section.slider img.artesano {
       -ms-flex-direction: row;
           flex-direction: row;
   overflow: hidden;
-  padding-left: 2.5rem;
+  padding-left: 2rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -831,6 +840,11 @@ section.slider img.artesano {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  border: none;
+}
+
+.elemento_blanco .carousel-inner .card img {
+  max-width: 50%;
 }
 
 .elemento_blanco .carousel-inner .card .card_body {
