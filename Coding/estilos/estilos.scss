@@ -82,12 +82,12 @@ $animationSpeed: 40s;
   .slide-track {
     animation: scroll $animationSpeed linear infinite;
     display: flex;
-    width: calc(250px * 14);
+    width: calc(500px * 14);
   }
 
   div.slide {
-   height: 200px;
-   width: 200px;
+   height: 400px;
+   width: 400px; //no lo toma
   }
 }
 
@@ -102,22 +102,46 @@ section.slider {
 
 //celular
 @media screen and (min-width: 360px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display: none;
   }
 }
 
 //tablet
 @media screen and (min-width: 600px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display: none;
   }
 }
 
 //monitor
 @media screen and (min-width: 1200px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display:block;
+  }
+
+  div.linea_blanca,
+  div.elemento_linea,
+  div.linea_artesanos,
+  div.linea_blanca_aire {
+    display:none;
+  }
+
+
+ 
+  div.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      font-size: 35px;
+      font-style: bold;
+      text-align: center;
+      text-decoration: underline;
+    }
   }
 
   .estilos {

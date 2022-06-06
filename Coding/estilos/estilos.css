@@ -78,10 +78,6 @@
   width: 70%;
 }
 
-.quienes_somos .qs_container .desktop_text {
-  display: none;
-}
-
 .quienes_somos .contacto_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,12 +369,12 @@ footer h1 span a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(500px * 14);
 }
 
 .slider div.slide {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
 }
 
 section.slider img.artesano {
@@ -388,20 +384,46 @@ section.slider img.artesano {
 
 /*Vistas personalizadas*/
 @media screen and (min-width: 360px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display: none;
   }
 }
 
 @media screen and (min-width: 600px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .slider {
+  .slider,
+  .desktop_text {
     display: block;
+  }
+  div.linea_blanca,
+  div.elemento_linea,
+  div.linea_artesanos,
+  div.linea_blanca_aire {
+    display: none;
+  }
+  div.card2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.card2 h3 {
+    font-size: 35px;
+    font-style: bold;
+    text-align: center;
+    text-decoration: underline;
   }
   .estilos .estilos_container {
     display: -webkit-box;
