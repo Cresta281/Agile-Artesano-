@@ -78,6 +78,10 @@
   width: 70%;
 }
 
+.quienes_somos .qs_container .desktop_p {
+  display: none;
+}
+
 .quienes_somos .contacto_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,15 +402,36 @@ section.slider img.artesano {
 }
 
 @media screen and (min-width: 1200px) {
-  .slider,
+  .slider {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #FAFAD2;
+  }
   .desktop_text {
     display: block;
+  }
+  .header .navbar .navbar_container .nav-item {
+    margin-left: 15rem;
   }
   div.linea_blanca,
   div.elemento_linea,
   div.linea_artesanos,
   div.linea_blanca_aire {
     display: none;
+  }
+  .quienes_somos .qs_container .desktop_p {
+    display: inline-block;
+  }
+  .contacto_container {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacto_container .svgs_container img {
+    width: 150%;
+    padding-bottom: 1rem;
   }
   div.card2 {
     display: -webkit-box;
