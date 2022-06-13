@@ -140,14 +140,14 @@
                     font-family: $blanco;
                     font-size: 12px;
                 }
+                 .frase {
+                    display: none;
+                }
                 a {
                     text-decoration: none;
-                    font-family: $texto;
-                    padding: 0.2rem;
-                    color: $azul;
-                    font-size: 12px;
-                    background: $blanco;
-                    border-radius: 15%;
+                    font-size: 25px;
+                    color: $blanco;
+                   padding-left: 3rem;
                 }
             }
         }
@@ -260,14 +260,14 @@
                     font-family: $blanco;
                     font-size: 12px;
                 }
+                .frase {
+                    display: none;
+                }
                 a {
                     text-decoration: none;
-                    font-family: $texto;
-                    padding: 0.2rem;
-                    color: $azul;
-                    font-size: 12px;
-                    background: $blanco;
-                    border-radius: 15%;
+                    font-size: 25px;
+                    color: $blanco;
+                    padding-left: 3rem;
                 }
             }
         }

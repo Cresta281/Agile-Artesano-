@@ -11,6 +11,11 @@
                 color: $blanco;
                 font-size: 25px;
                 padding: 2rem 1rem 1rem 1rem;
+                width: 50%;
+                img {
+                    width: 70%;
+                    border-radius: 10%;
+                }
             }
             .navbar-toggler {
                 background: $blanco;
@@ -49,9 +54,21 @@
             text-align: center;
             padding-top: 1rem;
             width: 70%;
+            span {
+                a {
+                    text-decoration: none;
+                    font-family: $titulos;
+                    color: $azul;
+                    cursor: pointer;
+                }
+            }
         }
         .desktop_p {
             display: none;
+        }
+        img {
+            width: 100%;
+            margin: 2rem;
         }
        
     }
@@ -62,14 +79,31 @@
            display: flex;
            flex-direction: column;
            justify-content: space-evenly;
+           img {
+               width: 60%;
+           }
         }
         .text_container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: space-around;
             p {
                 font-family: $titulos;
                 font-size: 18px;
+                a {
+                    text-decoration: none;
+                    font-family: $titulos;
+                    font-size: 18px;
+                    color: $negro;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        font-size: 25px;
+                        text-decoration: underline;
+                        
+                    }
+                }
             }
         }
     }
@@ -99,6 +133,7 @@
                 display: flex;
                 flex-direction: row;
                 align-items: stretch;
+                
                 img {
                     max-width: 50%;
                 }
@@ -114,14 +149,15 @@
                         font-family: $blanco;
                         font-size: 12px;
                     }
+                    .frase {
+                        display: none;
+                    }
                     a {
                         text-decoration: none;
-                        font-family: $texto;
-                        padding: 0.2rem;
-                        color: $azul;
-                        font-size: 12px;
-                        background: $blanco;
-                        border-radius: 15%;
+                        font-size: 25px;
+                        color: $blanco;
+                        padding-left: 3rem;
+                        margin-bottom: 1.5rem;
                     }
                 }
             }
@@ -142,8 +178,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 1rem;
             p {
                 display: none;
+                
             }
             img {
                 width: 38%;

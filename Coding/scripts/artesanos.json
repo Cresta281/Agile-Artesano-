@@ -10,7 +10,7 @@
         "elemento": "Tierra",
         "pais": "Colombia",
         "Observaciones": "26 años trabajando en diseño y fabricación de joyas de autor, técnicas varias: modelado en cera; armado; engaste de piedras, certificación de piedras naturales; granometría.",
-        "Frase": "La joyería es un hermoso y antiguo oficio que nos permite transformar materiales rígidos en formas variadas y únicas. Las joyas son más que un accesorio, son una pequeña obra de arte elaborada a mano con amor."
+        "Frase": "Más que un accesorio,  es una obra de arte."
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "elemento": "Tierra",
         "pais": "Colombia",
         "Observaciones": "Desde niño he tenido cercanía con la artesanía, llevo 6 años tejiendo y 3 años como artesano comercializando lo que hago. Experimento con el fique tejiendo mochilas, cestería, tapetes, hamacas y sobre estás técnicas innovando productos.",
-        "Frase": "Soy un aprendiz constante de la artesanía; anhelo que cada día más personas hagan sus cosas como en el tiempo de nuestros abuelos. Experimento con el fique en la cesteria, la tejeduría y busco rescatar los saberes ancestrales. Busco caminos en la artesanía que me permitan vivir de forma sustentable y sostenible con el medio ambiente."
+        "Frase": "¿Buscar caminos con la artesanía?"
     },
     {
         "id": 3,
@@ -36,7 +36,7 @@
         "elemento": "Agua",
         "pais": "Colombia",
         "Observaciones": "24 años de asistir como expositoras en Expoartesanías. Trabajo en innovación sector turismo y biomedica mediante el trabajo y experimentación con diversas entidades.",
-        "Frase": "Con seda estamos tejiendo vida"
+        "Frase": "Con seda estamos tejiendo sueños."
     },
     {
         "id": 4,
@@ -49,11 +49,11 @@
         "elemento": "Fuego",
         "pais": "Colombia",
         "Observaciones": "36 años de experiencia; 31 años de asistir como expositor en Expoartesanías. Técnica talla en madera. Trabajamos en el taller de forma directa con 15 personas, Docente de Educación Artística grados 10 y 11.",
-        "Frase": "Te invitamos a que conozcas nuestra raíces ancestrales a través de la elaboración de máscaras del Carnaval de Barranquilla; Patrimonio oral e Inmaterial de la Humanidad, departamento del Atlántico Colombia. Artesanías Toro Miura, llenamos tu ambiente de alegría, te esperamos!"
+        "Frase": "Llenamos tu ambiente de alegría!"
     },
     {
         "id": 5,
-        "img":"",
+        "img":"images/Nora6.png",
         "nombre": "Nora Andrea Ortiz Lopez",
         "taller": "Naol by Nora Ortiz",
         "red": "https://www.instagram.com/tallernaol.by.noraortiz/",
@@ -75,7 +75,7 @@
         "elemento": "Tierra",
         "pais": "Colombia",
         "Observaciones": "21 años dedicado a la técnica del enchapado en tamo (tallo del trigo y otros elementos vegetales)Participacion en Salon BAT 2007/2010 y 2022. Participación Feria Artesanal Carnaval artesano (Artesanias de Colombia - Acopi seccional Nariño) 2019 - 2020- 2021- 2022. Feria del café (Gobernación de Nariño y Artesanías de Colombia) 2021.",
-        "Frase": "Les invito a conocer lo que se puede crear con los tallos del trigo."
+        "Frase": "Les invito a conocer creaciones con los tallos de trigo"
     }, {
         "id": 7,
         "img":"images/YessPerfil.png",
@@ -112,7 +112,7 @@
         "elemento": "Fuego",
         "pais": "Colombia",
         "Observaciones": "Cooperativa fundada en 1975; 47 años de funcionamiento con 10 asociados directos y 40 indirectos. Oficios y técnicas Tejeduría, bordado en apliques. Participación en Expoartesanías 30 años participando (año 2000). Expoartesano 2010 al 2021. De forma colectiva en Santiago de Chile, Feria Internacional de Artesanía Tradicional de la Pontificia Universidad Católica de Chile. (1995,1997) Expocomer Panamá (?)",
-        "Frase": "Cuando quieras puedes venir a nuestro taller y aprendes este lindo oficio artesanal"
+        "Frase": "Uniendo hilos tejiendo sueños."
     }, {
         "id": 10,
         "img":"images/YaquelinPazperfil.png",
@@ -124,10 +124,10 @@
         "elemento": "Fuego",
         "pais": "Colombia",
         "Observaciones": "Yaquelin Paz (30 años de experiencia) y Chiqui Arellano somos dos artesanas quienes hemos fusionado técnicas ancestrales tales como la tejeduria en telares verticales y horizontales ,el macrame ,el bordado ,los apliques en la creacion de prendas y accesorios como también en la intervención de productos ya elaborados enfocandonos en la economia circular dándole asi un valor agregado a nuestros productos que de por si tiene un gran valor por ser legado ancestral y llevando estos procesos con comunidades indígenas, campesinas y comunas en la ciudad de Pasto creando de esta manera un semillero de conciencia ambiental y cultural . Certificación de trabajo en procesos culturales en la Comunida del territorio del Encano.",
-        "Frase": "Nuestros tejidos Ancestrales cuentan las  historias creadas por el diálogo entre el tejedor y el telar , te invito a ser parte de este maravilloso universo mágico."
+        "Frase": "Historias del diálogo entre tejedor y telar"
     }, {
         "id": 11,
-        "img":"",
+        "img":"images/Alba3.png",
         "nombre": "Alba Lucy Meneses",
         "taller": "Aires de Mi Tierra Ceramica Artesanal",
         "red": "https://www.instagram.com/tallerartisticoairesdemitierra/",
@@ -136,11 +136,11 @@
         "elemento": "Aire",
         "pais": "Colombia",
         "Observaciones": "AIRES DE MI TIERRA TALLER ARTISTICO, es  un espacio donde se elaboran productos utilitarios y decorativos en cerámica, con diseños paisajísticos, personajes propios de la región, Carnaval de negros y blancos y simbología de nuestros antepasados, narrando en cada pieza vida y costumbres de nuestra región, diseños que resaltan y resignifican la identidad cultural de este sur, siendo participes de diferentes ferias y exposiciones artesanales regionales, nacionales e internacionales. El taller Artístico Aires de mi Tierra tiene 20 años de trayectoria en cuanto a la elaboración de productos artesanales en cerámica utilitaria, a través de los años hemos avanzado en procesos que nos han permitido continuar creciendo, y fortaleciéndonos en cuanto a  proyectos culturales encaminados a compartir conocimientos a traves de proyectos artisticos culturales y sociales desde la Fundacion Cultural Guaneña, de esta manera llegamos a publicos infantiles, juveniles, grupos de mujeres y adultos, entre ellos estan.  Itinerarte - Arte y Reciclaje, Manos de Arcilla - Mujeres de Sueños,  Encuentro de Guaneña Leyenda de una tierra de Colores,  Mujeres Artistas y Artesanas del Sur.",
-        "Frase": ""
+        "Frase": "Manos de arcilla. Mujeres de sueños"
     }, {
         "id": 12,
         "img":"images/PattyPerfil.jpg",
-        "nombre": "Mercy Patricia Roa",
+        "nombre": "Patricia V",
         "taller": "Artesanias de Patty",
         "red": "https://www.instagram.com/artesaniasdepatty/",
         "whatsapp": "5491122524290",
@@ -148,7 +148,7 @@
         "elemento": "Tierra",
         "pais": "Argentina",
         "Observaciones": "Artesanias de Patty nace a 6.700 Km de Colombia, en el sur del continente, fruto del amor por la artesanía y la pasión caracteristica de las raices Colombianas. Entre sus variedades artesanales se destaca principalmente la encuadernacion artesanal con la tecnica de repujado en cuero creando diferentes figuras, formas, y mensajes que puedan reflejar la identidad de quien lo lleva consigo. ",
-        "Frase": "Basada en una historia de amor, artesanias de patty es la materializacion de un deseo del corazon. Arte artesanal hecho con amor y dedicación. Un obsequio unico y especial como la persona a quien se lo das."
+        "Frase": "Arte artesanal hecho con amor y dedicación"
     }, {
         "id": 13,
         "img":"images/LizettPerfil.png",
@@ -160,7 +160,7 @@
         "elemento": "Aire",
         "pais": "Colombia",
         "Observaciones": "Objetos de diseño que dan vida a una fascinación recíproca entre los objetos y sus creadores. Diseño y desarrollo de productos con comunidades y oficios artesanales.",
-        "Frase": "Valerio da vida a una fascinación recíproca entre los objetos y sus creadores, entre las fibras y las manos que expresan una y otra vez la creatividad humana."
+        "Frase": "Crea, teje, urde transformando ideas en objetos únicos"
     }, {
         "id": 14,
         "img":"images/JMCPerfil.png",
@@ -184,7 +184,7 @@
         "elemento": "Agua",
         "pais": "Mexico",
         "Observaciones": "El Maestro Pedro Ortega Lozano es un representante del trabajo Papel Picado, típico de México. Se enamoró de la técnica siendo niño. Su experiencia en el oficio lo ha llevado a ser representante internacional de México en innumerables festivales y a ser parte del legado cultural Mexicanol",
-        "Frase": "Elegí ser artesano, soy de Tláhuac México, donde lo prehispánico se conserva como herencia ancestral que crece. Conoce mi trabajo en papel picado."
+        "Frase": "Herencia ancestral que prevalece, papel picado en México."
     }, {
         "id": 16,
         "img":"images/ElizabethCuacesPerfil.jpeg",
@@ -208,7 +208,7 @@
         "elemento": "Aire",
         "pais": "Colombia",
         "Observaciones": "Hace 18 años estudio la lengua originaria del territorio denominado en la Conquista, (la Lengua de las indias occidentales) en la zona Andina de Colombia, esta lengua me permite reconocer lo sagrado de los oficios artesanales, su mitica y funcionalidad, através de su difusión los artesanos resignifican su hacer, despiertan su memoria ancestral y reviven el sentido de unidad con la tierra.",
-        "Frase": "Soy artesana de la palabra, recupero a través de la lengua Mhuysqa  lo sagrado de los oficios."
+        "Frase": "De la lengua Mhuysqa, recupero lo sagrado de los oficios."
     }, {
         "id": 18,
         "img":"images/MarioPozPerfil.jpg",
@@ -220,7 +220,7 @@
         "elemento": "Agua",
         "pais": "Guatemala",
         "Observaciones": "Descripcion Rara",
-        "Frase": ""
+        "Frase": "Consulta cómo mejorar prácticas productivas y ventas en e-commerce"
     }, {
         "id": 19,
         "img":"images/SamaryCondePerfil.png",
@@ -244,7 +244,7 @@
         "elemento": "Tierra",
         "pais": "Argentina",
         "Observaciones": "Mi nombre es Maria del Carmen Ponce y amo mi espacio La Tomasa Colores del Norte, que nace con la intención de mostrar el NOA:sus artesanos, lugares, sabores, tradiciones y costumbres, los.paisajes y su música.  .Amo las artesanias y admiro a los artesanos. Intento que las personas elijan prodcutos  artesanales para incluirlos en su cotidianedidad. Que se animen a mixturar elementos artesanales que on únicos, en su decoración moderna. Que tomen conciencia del valor cultural que tienen y que todo  el mundo artesanal sigue el ritmo de la naturaleza",
-        "Frase": "Viviendo la artesania del NORTE ARGENTINO. Siempre vamos a estar esperándolos!"
+        "Frase": "Viviendo la artesanía del Norte Argentino; les esperamos!"
     }, {
         "id": 21,
         "img":"images/NormaGomezPerfil2.png",
@@ -292,7 +292,7 @@
         "elemento": "Fuego",
         "pais": "Colombia",
         "Observaciones": "Soy Maestra en Artes Plásticas, hace 15 años que trabajo especialmente en vitral y mosaico aunque también manejo otras técnicas enfocadas a la decoración, accesorios y elementos utilitarios de diseño.",
-        "Frase": "Hacemos tus regalos para toda ocasión. Obsequios con gran significado, personalizados hechos para durar toda la vida "
+        "Frase": "Somos Arte para Deslumbrar"
     }, {
         "id": 25,
         "img":"images/KarenFTPPerfil.png",
@@ -316,14 +316,15 @@
         "elemento": "Aire",
         "pais": "Colombia",
         "Observaciones": "No hay descripcion.",
-        "Frase": "La técnica del barniz de Pasto (mopa-mopa) es un oficio artesanal único en el mundo, de origen precolombino y que aún pervive; el maestro Gilberto Granja y su hijo Óscar O. Granja Peña son guardianes de ésta herencia, considerada a partir del 15 de diciembre de 2020, como Patrimonio Cultural Inmaterial de la Humanidad."
+        "Frase": "Guardianes del barniz de pasto, herencia Precolombina."
+
         
         
     }, {
         "id": 27,
         "img":"images/AsoarcaPerfil.png",
         "nombre": "Jadis Garrido",
-        "taller": "Asociacion de Artesanos de Candelaria, Cesar ARCA",
+        "taller": "Cesar ARCA",
         "red": "https://www.instagram.com/arca_jadisgarrido/",
         "whatsapp": "No disponible",
         "email": "jadisgarrido@hotmail.com",
