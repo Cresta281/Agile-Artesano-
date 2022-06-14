@@ -27,7 +27,7 @@
 }
 
 .header .navbar .navbar_container .navbar-brand img {
-  width: 70%;
+  width: 50%;
   border-radius: 10%;
 }
 
@@ -118,6 +118,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-left: -1rem;
 }
 
 .quienes_somos .contacto_container .svgs_container img {
@@ -455,6 +456,9 @@ section.slider img.artesano {
   .desktop_text,
   .consumo_responsable {
     display: block;
+  }
+  .header .navbar .navbar_container .navbar-brand img {
+    width: 10%;
   }
   .header .navbar .navbar_container .nav-item {
     margin-left: 15rem;
