@@ -431,14 +431,16 @@ section.slider img.artesano {
 /*Vistas personalizadas*/
 @media screen and (min-width: 360px) {
   .slider,
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display: none;
   }
 }
 
 @media screen and (min-width: 600px) {
   .slider,
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display: none;
   }
 }
@@ -450,7 +452,8 @@ section.slider img.artesano {
     padding-bottom: 2rem;
     background: #FAFAD2;
   }
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display: block;
   }
   .header .navbar .navbar_container .nav-item {
@@ -616,6 +619,11 @@ section.slider img.artesano {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
+}
+
+.consumo_responsable {
+  height: 300px !important;
+  width: 300px !important;
 }
 
 .elemento {

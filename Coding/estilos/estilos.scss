@@ -103,15 +103,18 @@ section.slider {
 //celular
 @media screen and (min-width: 360px) {
   .slider,
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display: none;
   }
 }
 
+
 //tablet
 @media screen and (min-width: 600px) {
   .slider,
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display: none;
   }
 }
@@ -124,17 +127,20 @@ section.slider {
     padding-bottom: 2rem;
     background: $blanco;
   }
-  .desktop_text {
+  .desktop_text,
+  .consumo_responsable {
     display:block;
   }
   .header {
     .navbar {
       .navbar_container {
+
         .nav-item {
           margin-left: 15rem;
         }
       }
     }
+  }
   }
 
 
@@ -280,6 +286,12 @@ section.slider {
         }
     }
   }
+}
+
+
+.consumo_responsable {
+  height: 300px !important;
+  width: 300px !important; 
 }
 
 @import "elementos";
