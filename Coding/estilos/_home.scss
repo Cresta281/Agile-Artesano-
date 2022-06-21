@@ -7,14 +7,10 @@
         border-radius: 0px 0px 20px 20px;
         .navbar_container {
             .navbar-brand {
-                font-family: $titulos;
-                color: $blanco;
-                font-size: 25px;
-                padding: 2rem 1rem 1rem 1rem;
-                width: 50%;
+                font-size: 50px;
+                width: 30%;
                 img {
-                    width: 50%;
-                    border-radius: 10%;
+                    width: 80%;
                 }
             }
             .navbar-toggler {
@@ -26,8 +22,9 @@
             .nav-item {
                 font-family: $texto;
                 .nav-link {
-                    color: $blanco;
-                    padding-left: 1rem;
+                   img {
+                    width: 30%;
+                   }
                 }
             }
         }

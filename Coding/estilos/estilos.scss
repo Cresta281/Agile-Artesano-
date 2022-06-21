@@ -129,18 +129,28 @@ section.slider {
   }
   .desktop_text,
   .consumo_responsable {
-    display:block;
+    display:block
   }
   .header {
     .navbar {
       .navbar_container {
         .navbar-brand {
           img {
-            width: 10%;
+            width: 20%;
+            margin-left: 5rem;
           }
         }
         .nav-item {
-          margin-left: 15rem;
+          display: flex;
+          justify-content: space-evenly;
+          .nav-link {
+            img {
+              width: 50%;
+              
+
+            }
+          }
+          
         }
       }
     }
@@ -208,6 +218,7 @@ section.slider {
       } }
     }
   }
+
   .estilos {
     .estilos_container {
         display: flex;
@@ -238,12 +249,14 @@ section.slider {
               
             }
             .card_body {
+              padding: 1rem;
               h5 {
                 font-size: 17px;
               }
               .frase {
                 display: inline-block;
                 width: 100%;
+                font-size: 12px;
               }
               p {
                 font-size: 15px;

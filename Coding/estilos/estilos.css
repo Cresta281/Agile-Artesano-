@@ -19,16 +19,12 @@
 }
 
 .header .navbar .navbar_container .navbar-brand {
-  font-family: "Yeseva One";
-  color: #FAFAD2;
-  font-size: 25px;
-  padding: 2rem 1rem 1rem 1rem;
-  width: 50%;
+  font-size: 50px;
+  width: 30%;
 }
 
 .header .navbar .navbar_container .navbar-brand img {
-  width: 50%;
-  border-radius: 10%;
+  width: 80%;
 }
 
 .header .navbar .navbar_container .navbar-toggler {
@@ -42,9 +38,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-.header .navbar .navbar_container .nav-item .nav-link {
-  color: #FAFAD2;
-  padding-left: 1rem;
+.header .navbar .navbar_container .nav-item .nav-link img {
+  width: 30%;
 }
 
 .quienes_somos {
@@ -458,10 +453,19 @@ section.slider img.artesano {
     display: block;
   }
   .header .navbar .navbar_container .navbar-brand img {
-    width: 10%;
+    width: 20%;
+    margin-left: 5rem;
   }
   .header .navbar .navbar_container .nav-item {
-    margin-left: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .header .navbar .navbar_container .nav-item .nav-link img {
+    width: 50%;
   }
   div.linea_blanca,
   div.elemento_linea,
@@ -560,12 +564,16 @@ section.slider img.artesano {
   .estilos .estilos_container .cards_container .card img {
     width: 80%;
   }
+  .estilos .estilos_container .cards_container .card .card_body {
+    padding: 1rem;
+  }
   .estilos .estilos_container .cards_container .card .card_body h5 {
     font-size: 17px;
   }
   .estilos .estilos_container .cards_container .card .card_body .frase {
     display: inline-block;
     width: 100%;
+    font-size: 12px;
   }
   .estilos .estilos_container .cards_container .card .card_body p {
     font-size: 15px;
@@ -754,6 +762,16 @@ section.slider img.artesano {
   transition: all 0.5s;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner {
+    padding-left: 40rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .elemento_azul .carousel-inner h1 {
   color: #FAFAD2;
   font-family: "Yeseva One";
@@ -778,12 +796,25 @@ section.slider img.artesano {
           align-items: stretch;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card2 {
+    width: 400px;
+    height: 200px;
+  }
+}
+
 .elemento_azul .carousel-inner .card2 h3 {
   font-family: "Poppins", sans-serif;
   color: #FAFAD2;
   padding-top: 3rem;
   font-size: 18px;
   padding-left: 2.6rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card2 h3 {
+    font-size: 25px;
+  }
 }
 
 .elemento_azul .carousel-inner .card2 .linea_artesanos {
@@ -813,6 +844,25 @@ section.slider img.artesano {
   border: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card {
+    width: 400.33px;
+    height: 200.38px;
+    background: #9D2F2F;
+    margin: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+}
+
 .elemento_azul .carousel-inner .card img {
   max-width: 50%;
 }
@@ -821,10 +871,22 @@ section.slider img.artesano {
   padding: 0.3rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card .card_body {
+    padding: 0.5rem;
+  }
+}
+
 .elemento_azul .carousel-inner .card .card_body h5 {
   font-family: "Yeseva One";
   font-size: 14px;
   color: #FAFAD2;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card .card_body h5 {
+    font-size: 17px;
+  }
 }
 
 .elemento_azul .carousel-inner .card .card_body p {
@@ -833,8 +895,22 @@ section.slider img.artesano {
   font-size: 12px;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card .card_body p {
+    font-size: 15px;
+  }
+}
+
 .elemento_azul .carousel-inner .card .card_body .frase {
   display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_azul .carousel-inner .card .card_body .frase {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+  }
 }
 
 .elemento_azul .carousel-inner .card .card_body a {
@@ -921,6 +997,16 @@ section.slider img.artesano {
   transition: all 0.5s;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner {
+    padding-left: 40rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .elemento_blanco .carousel-inner h1 {
   color: #FAFAD2;
   font-family: "Yeseva One";
@@ -945,12 +1031,25 @@ section.slider img.artesano {
           align-items: stretch;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card2 {
+    width: 400px;
+    height: 200px;
+  }
+}
+
 .elemento_blanco .carousel-inner .card2 h3 {
   font-family: "Poppins", sans-serif;
   color: #272716;
   padding-top: 3rem;
   font-size: 18px;
   padding-left: 2.6rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card2 h3 {
+    font-size: 25px;
+  }
 }
 
 .elemento_blanco .carousel-inner .card2 .linea_artesanos {
@@ -980,6 +1079,25 @@ section.slider img.artesano {
   border: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card {
+    width: 400.33px;
+    height: 200.38px;
+    background: #9D2F2F;
+    margin: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+}
+
 .elemento_blanco .carousel-inner .card img {
   max-width: 50%;
 }
@@ -988,10 +1106,22 @@ section.slider img.artesano {
   padding: 0.3rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card .card_body {
+    padding: 0.5rem;
+  }
+}
+
 .elemento_blanco .carousel-inner .card .card_body h5 {
   font-family: "Yeseva One";
   font-size: 14px;
   color: #FAFAD2;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card .card_body h5 {
+    font-size: 17px;
+  }
 }
 
 .elemento_blanco .carousel-inner .card .card_body p {
@@ -1000,8 +1130,22 @@ section.slider img.artesano {
   font-size: 12px;
 }
 
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card .card_body p {
+    font-size: 15px;
+  }
+}
+
 .elemento_blanco .carousel-inner .card .card_body .frase {
   display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .carousel-inner .card .card_body .frase {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+  }
 }
 
 .elemento_blanco .carousel-inner .card .card_body a {

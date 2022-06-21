@@ -99,7 +99,7 @@
         "elemento": "Agua",
         "pais": "Colombia",
         "Observaciones": "33 años de experiencia y el taller cumple 110 años de tradición. Técnica de torno, talla y pulimento con semilla de la tagua. Representación por Colombia del Festival de la cultura popular en Washington del Smith Sonian 2011. Participación Expoartesanías desde 1991 al 2003.",
-        "Frase": "¿Quieres conocer la evolución y transformación del agua?"
+        "Frase": "Conoce la transformación del agua"
     },
     {
         "id": 9,
@@ -172,7 +172,7 @@
         "elemento": "Tierra",
         "pais": "Colombia",
         "Observaciones": "casa de cristal es un taller herbal, en donde la madre tierra a traves de las plantas, nos enseña las utilidades sanadoras y secretos de la naturaleza. en este taller se puede vivir una experiencia significativa con infusiones, macerados, aceites, y plantas vivas.",
-        "Frase": "Las plantas nos nutren, ahora nosotros queremos nutrirte."
+        "Frase": "Nosotros queremos nutrirte."
     }, {
         "id": 15,
         "img":"images/PedroOrtegaperfil.png",
@@ -237,7 +237,7 @@
         "id": 20,
         "img":"images/Tomasaperfil.png",
         "nombre": "Maria Ponce",
-        "taller": "Tienda de artesanias La Tomasa Colores del Norte",
+        "taller": "La Tomasa Colores del Norte",
         "red": "https://www.instagram.com/latomasa_coloresdelnorte/",
         "whatsapp": "5492346506920",
         "email": "carmen.poncefiorito@gmail.com",
@@ -262,7 +262,7 @@
         "img":"images/ShirlyHerazoPerfil.png",
         "nombre": "Shirly Herazo",
         "taller": "Arte en caña flecha Emer e hijos",
-        "red": "https://www.instagram.com/tallernaol.by.noraortiz/",
+        "red": "https://www.facebook.com/shirly.herazocastillo",
         "whatsapp": "No disponible",
         "email": "shirlyh14@gmail.com",
         "elemento": "Aire",
@@ -332,6 +332,42 @@
         "pais": "Colombia",
         "Observaciones": "No hay descripcion.",
         "Frase": "Mira cómo hemos transformado nuestra tradición."
+    }, {
+        "id": 28,
+        "img":"images/Nina_Folk.png",
+        "nombre": "Andrea Samaniego",
+        "taller": "Nina Folk",
+        "red": "https://www.instagram.com/ninafolk/",
+        "whatsapp": "593998037147",
+        "email": "ninafolk@hotmail.com",
+        "elemento": "Aire",
+        "pais": "Ecuador",
+        "Observaciones": "No hay descripcion.",
+        "Frase": "Pensamos, sentimos; hacemos joyería contemporánea  desde materiales y técnicas textiles"
+    }, {
+        "id": 29,
+        "img":"images/AsoarcaPerfil.png",
+        "nombre": "Kelvin Alvarado",
+        "taller": "YalaBox",
+        "red": "https://www.instagram.com/yala.box/",
+        "whatsapp": "593998037147",
+        "email": "alvarado,kelvin@gmail.com",
+        "elemento": "Aire",
+        "pais": "Panama",
+        "Observaciones": "No hay descripcion.",
+        "Frase": "NFT de artesanía de Guna Yala"
+    }, {
+        "id": 30,
+        "img":"images/NickanorUelva.jpg",
+        "nombre": "Nickanor Uelva",
+        "taller": "Embera Style",
+        "red": "https://www.instagram.com/emberastyle/",
+        "whatsapp": "593998037147",
+        "email": "Emberastyle1@gmail.com",
+        "elemento": "Aire",
+        "pais": "Panama",
+        "Observaciones": "No hay descripcion.",
+        "Frase": "Embera Style, prendas para trascender y transformar"
     }
 
 ]
