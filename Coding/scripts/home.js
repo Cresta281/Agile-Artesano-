@@ -7,7 +7,7 @@ let artesanos_stock = []
 $.getJSON('scripts/artesanos.json', function (data){
     data.forEach(elemento => artesanos_stock.push(elemento))
    shuffleArray(artesanos_stock)
-   const sliced = artesanos_stock.slice(-6)
+   const sliced = artesanos_stock.slice(-8)
    mostrarArtesanos(sliced)
 })
 const shuffleArray = array => {
