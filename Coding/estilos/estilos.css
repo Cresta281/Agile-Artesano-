@@ -835,6 +835,16 @@ section.slider img.artesano {
   width: 70%;
 }
 
+.elemento_azul .controls {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_azul .controls {
+    display: inline-block;
+  }
+}
+
 .elemento_azul .carousel-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1118,6 +1128,22 @@ section.slider img.artesano {
   text-align: center;
   padding-top: 1rem;
   width: 70%;
+}
+
+.elemento_blanco .controls {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .elemento_blanco .controls {
+    display: inline-block;
+  }
+  .elemento_blanco .controls button {
+    color: #9D2F2F !important;
+  }
+  .elemento_blanco .controls button span {
+    color: #9D2F2F !important;
+  }
 }
 
 .elemento_blanco .carousel-inner {
