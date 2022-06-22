@@ -33,7 +33,7 @@ function mostrarArtesanos(artesanos){
                     <h5 class="card_title">${artesano.nombre}</h5>
                     <p class="card_text">${artesano.taller}</p>
                     <p class="card_text frase">${artesano.Frase}</p>
-                    <a href="${artesano.red}"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="${artesano.red}" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>

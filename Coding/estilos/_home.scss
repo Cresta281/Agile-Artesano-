@@ -23,8 +23,29 @@
                 font-family: $texto;
                 .nav-link {
                    img {
-                    width: 30%;
+                    width: 35%;
                    }
+                }
+                .agile {
+                    img {
+                        width: 50%;
+                    }
+                }
+                .comunidad {
+                    img {
+                        width: 40%;
+                        @media screen and (min-width: 1200px){
+                            width: 50%;
+                        }
+                    }
+                }
+                .contactoNav {
+                    img {
+                        width: 30%;
+                        @media screen and (min-width: 1200px){
+                            width: 50%;
+                        }
+                    }
                 }
             }
         }

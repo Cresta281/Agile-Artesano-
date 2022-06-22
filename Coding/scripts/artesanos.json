@@ -17,7 +17,7 @@
         "img":"images/JuanVallejosPerfil.png",
         "nombre": "Juan Vallejo",
         "taller": "De fique",
-        "red": "https://www.instagram.com/defiqueartesano/",
+        "red": "https://www.instagram.com/jucavaor",
         "whatsapp": "573114723965",
         "email": "jucavaor@gmail.com",
         "elemento": "Tierra",
@@ -55,7 +55,7 @@
         "id": 5,
         "img":"images/Nora6.png",
         "nombre": "Nora Andrea Ortiz Lopez",
-        "taller": "Naol by Nora Ortiz",
+        "taller": "Taller Naol by Nora Ortiz",
         "red": "https://www.instagram.com/tallernaol.by.noraortiz/",
         "whatsapp": "573132258103",
         "email": "naol.di.joyeria@gmail.com",
@@ -211,7 +211,7 @@
         "Frase": "De la lengua Mhuysqa, recupero lo sagrado de los oficios."
     }, {
         "id": 18,
-        "img":"images/MarioPozPerfil.jpg",
+        "img":"images/Mario_Poz.png",
         "nombre": "Mario Poz",
         "taller": "Los Telares",
         "red": "https://www.instagram.com/lostelaresxela",
@@ -284,7 +284,7 @@
     }, {
         "id": 24,
         "img":"images/CarodeVriesPerfil.png",
-        "nombre": "Carolina De vries",
+        "nombre": "Carolina Arturo",
         "taller": "Deslumbra",
         "red": "https://www.instagram.com/deslumbraregalosydecoracion/",
         "whatsapp": "3214493915",
